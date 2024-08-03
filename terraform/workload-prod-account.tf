@@ -16,7 +16,7 @@ module "workload-prod" {
 
   change_management_parameters = {
     change_requested_by = "Cyril"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
+    change_reason       = "To create the customization pipeline"
   }
 
   account_customizations_name = "workload-prod"
