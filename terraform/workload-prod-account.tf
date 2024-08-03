@@ -19,8 +19,6 @@ module "workload-prod" {
     change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
   }
 
-  custom_fields = {
-    group = "prod"
-  }
+  account_customizations_name = "workload-prod"
 
 }
