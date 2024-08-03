@@ -5,6 +5,9 @@ module "sandbox" {
     AccountEmail              = "cyrild.moses+workload_dev@gmail.com"
     AccountName               = "workload-dev"
     ManagedOrganizationalUnit = "workload"
+    SSOUserEmail              = "cyrild.moses+workload_dev@gmail.com"
+    SSOUserFirstName          = "cyril moses"
+    SSOUserLastName           = "devadass"
   }
 
   account_tags = {
