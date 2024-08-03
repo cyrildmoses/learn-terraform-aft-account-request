@@ -3,7 +3,7 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "cyrild.moses+workload-dev@gmail.com"
-    AccountName               = "sandbox-aft"
+    AccountName               = "workload-dev"
     ManagedOrganizationalUnit = "workload"
     SSOUserEmail              = "cyrild.moses+workload-dev@gmail.com"
     SSOUserFirstName          = "cyril"
@@ -18,5 +18,11 @@ module "sandbox" {
     change_requested_by = "Cyril"
     change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
   }
+
+  custom_fields = {
+    group = "non-prod"
+  }
+
+  account_customizations_name = "sandbox"
 
 }
