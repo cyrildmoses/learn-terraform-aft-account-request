@@ -15,12 +15,12 @@ module "sandbox" {
   }
 
   change_management_parameters = {
-    change_requested_by = "Cyril"
+    change_requested_by = "Cyril New"
     change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
   }
 
   custom_fields = {
-    group = "non-prod"
+    group = "non-prod-new"
   }
 
   account_customizations_name = "sandbox"
